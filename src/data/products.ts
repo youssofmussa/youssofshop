@@ -4,8 +4,8 @@ import { Product } from "@/types";
 export const products: Product[] = [
   {
     id: 1,
-    name: "Tailored Wool Blazer",
-    description: "A premium wool blazer with a tailored fit. Perfect for business meetings or formal events. Features classic notched lapels and a two-button closure for a timeless look.",
+    name: "Premium Wool Blazer",
+    description: "A sophisticated wool blazer with a tailored fit. Perfect for business meetings or formal events with premium details and expert craftsmanship.",
     price: 199.99,
     originalPrice: 249.99,
     images: [
@@ -14,7 +14,7 @@ export const products: Product[] = [
       "https://images.unsplash.com/photo-1604644401890-0bd678c83788?q=80&w=870&auto=format&fit=crop",
     ],
     category: "men",
-    tags: ["blazer", "formal", "wool"],
+    tags: ["blazer", "formal", "wool", "sale"],
     sizes: ["S", "M", "L", "XL"],
     colors: [
       { name: "Black", value: "#000000" },
@@ -28,16 +28,16 @@ export const products: Product[] = [
   },
   {
     id: 2,
-    name: "Casual Cotton T-Shirt",
+    name: "Organic Cotton T-Shirt",
     description: "A comfortable and stylish cotton t-shirt for everyday wear. Made from premium organic cotton that's soft on your skin and kind to the environment.",
     price: 29.99,
     images: [
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=880&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1581655353564-df123a1eb820?q=80&w=987&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1503341504253-dff4815485f1?q=80&w=987&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1562157873-818bc0726f68?q=80&w=927&auto=format&fit=crop",
     ],
     category: "men",
-    tags: ["t-shirt", "casual", "cotton"],
+    tags: ["t-shirt", "casual", "cotton", "new-arrival"],
     sizes: ["XS", "S", "M", "L", "XL", "XXL"],
     colors: [
       { name: "White", value: "#ffffff" },
@@ -58,12 +58,12 @@ export const products: Product[] = [
     price: 79.99,
     originalPrice: 99.99,
     images: [
-      "https://images.unsplash.com/photo-1618093143879-e4ec33188226?q=80&w=870&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1593126463552-be5fab9c9133?q=80&w=870&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1615387000571-bdcfe92eb5fb?q=80&w=774&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?q=80&w=1746&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1623086365215-e10a284ce8b8?q=80&w=1887&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1492707892479-7bc8d5a4ee93?q=80&w=1965&auto=format&fit=crop",
     ],
     category: "women",
-    tags: ["dress", "summer", "floral"],
+    tags: ["dress", "summer", "floral", "sale"],
     sizes: ["XS", "S", "M", "L"],
     colors: [
       { name: "Blue Floral", value: "#4895ef" },
@@ -76,16 +76,16 @@ export const products: Product[] = [
   },
   {
     id: 4,
-    name: "High-Waisted Jeans",
+    name: "High-Waisted Denim Jeans",
     description: "Classic high-waisted jeans with a slim fit and slight stretch for comfort. The perfect addition to any casual wardrobe with timeless style.",
     price: 69.99,
     images: [
-      "https://images.unsplash.com/photo-1581798117964-644150074edc?q=80&w=988&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1507091337016-115e8d1e15d5?q=80&w=987&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1610739557320-8c9bc1b2c92a?q=80&w=927&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?q=80&w=1887&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1584370848010-d7fe6bc767ec?q=80&w=1887&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1475178626620-a4d074967452?q=80&w=1886&auto=format&fit=crop",
     ],
     category: "women",
-    tags: ["jeans", "denim", "casual"],
+    tags: ["jeans", "denim", "casual", "new-arrival"],
     sizes: ["24", "26", "28", "30", "32"],
     colors: [
       { name: "Dark Blue", value: "#0a2463" },
@@ -99,13 +99,13 @@ export const products: Product[] = [
   },
   {
     id: 5,
-    name: "Slim Fit Chinos",
+    name: "Modern Slim Fit Chinos",
     description: "Modern slim fit chinos made from soft cotton twill. Perfect for both casual and smart-casual looks with a comfortable stretch for all-day wear.",
     price: 59.99,
     images: [
-      "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?q=80&w=987&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1484186694577-9d6dc6cfc7ef?q=80&w=1170&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1515247897943-b8ab1a33a932?q=80&w=1170&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?q=80&w=1897&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1604176424472-48e3030bb0f9?q=80&w=1936&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1525845859779-54d477ff291f?q=80&w=1887&auto=format&fit=crop",
     ],
     category: "men",
     tags: ["chinos", "pants", "casual"],
@@ -121,17 +121,17 @@ export const products: Product[] = [
   },
   {
     id: 6,
-    name: "Leather Biker Jacket",
+    name: "Premium Leather Biker Jacket",
     description: "A classic leather biker jacket with an asymmetric zip. Made from premium leather with a comfortable fit and timeless style that gets better with age.",
     price: 249.99,
     originalPrice: 299.99,
     images: [
-      "https://images.unsplash.com/photo-1664368832278-169bc9fd1c32?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fGxlYXRoZXIlMjBqYWNrZXR8ZW58MHx8MHx8fDA%3D",
       "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=935&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1494496195158-c3becb4f2475?q=80&w=1170&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1520975954732-35dd22299614?q=80&w=1887&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1626497059703-995954944be2?q=80&w=1887&auto=format&fit=crop",
     ],
     category: "men",
-    tags: ["jacket", "leather", "biker"],
+    tags: ["jacket", "leather", "biker", "sale"],
     sizes: ["S", "M", "L", "XL"],
     colors: [
       { name: "Black", value: "#000000" },
@@ -148,12 +148,12 @@ export const products: Product[] = [
     description: "A cozy oversized knit sweater for cold days. Features a relaxed fit and soft, warm fabric that's perfect for layering in cooler weather.",
     price: 89.99,
     images: [
-      "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?q=80&w=987&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?q=80&w=1005&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=962&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1608638562455-bc8927d3abd9?q=80&w=1915&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1538329972958-465d6d2144ed?q=80&w=1910&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1604093999627-d1a4f2d3f6a8?q=80&w=1887&auto=format&fit=crop",
     ],
     category: "women",
-    tags: ["sweater", "knit", "winter"],
+    tags: ["sweater", "knit", "winter", "new-arrival"],
     sizes: ["S", "M", "L"],
     colors: [
       { name: "Cream", value: "#f5f5dc" },
@@ -167,22 +167,23 @@ export const products: Product[] = [
   },
   {
     id: 8,
-    name: "Athletic Performance Shorts",
+    name: "Performance Athletic Shorts",
     description: "High-performance athletic shorts designed for comfort during intense workouts. Features moisture-wicking fabric and a secure yet comfortable fit.",
     price: 39.99,
     images: [
-      "https://images.unsplash.com/photo-1562886877-52ada5c0d6cf?q=80&w=986&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1518059294975-e11b13f5e5d4?q=80&w=988&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1519098901909-b1553a1190af?q=80&w=1074&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1577284233919-3335cc804764?q=80&w=1887&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1588361861040-ac9b1018f6d5?q=80&w=1916&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1581344947736-f2f915b3410c?q=80&w=1887&auto=format&fit=crop",
     ],
     category: "men",
-    tags: ["shorts", "athletic", "sports"],
+    tags: ["shorts", "athletic", "sports", "new-arrival"],
     sizes: ["S", "M", "L", "XL"],
     colors: [
       { name: "Black", value: "#000000" },
       { name: "Gray", value: "#6c757d" },
       { name: "Navy", value: "#1d3557" },
     ],
+    newArrival: true,
     stock: 60,
     rating: 4.4,
     reviews: 48,
@@ -194,12 +195,12 @@ export const products: Product[] = [
     price: 119.99,
     originalPrice: 149.99,
     images: [
-      "https://images.unsplash.com/photo-1467043153537-a4fba2cd39ef?q=80&w=880&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1552902943-3a59923bc6b3?q=80&w=944&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1548389996-aa941891e961?q=80&w=987&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1604575396874-b1a218f6ddd5?q=80&w=1888&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1615397587950-3cbb55f95d8e?q=80&w=1887&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1609673000738-e22ea303856c?q=80&w=1887&auto=format&fit=crop",
     ],
     category: "women",
-    tags: ["blouse", "silk", "formal"],
+    tags: ["blouse", "silk", "formal", "sale"],
     sizes: ["XS", "S", "M", "L"],
     colors: [
       { name: "White", value: "#ffffff" },
@@ -214,16 +215,16 @@ export const products: Product[] = [
   },
   {
     id: 10,
-    name: "Waterproof Rain Jacket",
+    name: "Stylish Waterproof Rain Jacket",
     description: "A durable waterproof jacket for rainy days. Features sealed seams and adjustable hood to keep you dry in any weather conditions while maintaining style.",
     price: 129.99,
     images: [
-      "https://images.unsplash.com/photo-1605908502724-9093a79a1b39?q=80&w=987&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1548883354-94bcfe321cbb?q=80&w=986&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1633966887768-64f9a867bdba?q=80&w=1964&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1543076499-a6133cb932fd?q=80&w=1827&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=1770&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=1936&auto=format&fit=crop",
     ],
     category: "women",
-    tags: ["jacket", "rain", "waterproof"],
+    tags: ["jacket", "rain", "waterproof", "new-arrival"],
     sizes: ["S", "M", "L", "XL"],
     colors: [
       { name: "Yellow", value: "#ffd60a" },
@@ -237,13 +238,13 @@ export const products: Product[] = [
   },
   {
     id: 11,
-    name: "Classic Oxford Shirt",
+    name: "Premium Oxford Shirt",
     description: "A timeless oxford shirt for a clean, classic look. Made from premium cotton with a comfortable fit that's perfect for both work and casual occasions.",
     price: 69.99,
     images: [
-      "https://images.unsplash.com/photo-1598961942613-ba897716405b?q=80&w=1160&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1604695573706-53170668f6a6?q=80&w=1287&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1644424235033-85a31a2e1df7?q=80&w=1287&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1598032895397-b9472444bf93?q=80&w=1780&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1618886614638-80e3c103d31a?q=80&w=1770&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1607345366928-199ea26cfe3e?q=80&w=1887&auto=format&fit=crop",
     ],
     category: "men",
     tags: ["shirt", "oxford", "formal"],
@@ -259,29 +260,122 @@ export const products: Product[] = [
   },
   {
     id: 12,
-    name: "Casual Linen Dress",
+    name: "Casual Linen Summer Dress",
     description: "A breezy linen dress for casual summer days. Made from high-quality linen fabric that keeps you cool while providing a relaxed, effortless style.",
     price: 89.99,
     images: [
-      "https://images.unsplash.com/photo-1495385794356-15371f348c31?q=80&w=1170&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1582533561751-ef6f6ab93a2e?q=80&w=855&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1554476642-1339d139c70a?q=80&w=2034&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?q=80&w=1888&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1614851099175-e5b30eb6f696?q=80&w=1965&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1496747611176-843222e1e57c?q=80&w=1973&auto=format&fit=crop",
     ],
     category: "women",
-    tags: ["dress", "linen", "casual"],
+    tags: ["dress", "linen", "casual", "new-arrival"],
     sizes: ["XS", "S", "M", "L"],
     colors: [
       { name: "Beige", value: "#f5f5dc" },
       { name: "Light Blue", value: "#89c2d9" },
       { name: "Sage Green", value: "#9caf88" },
     ],
-    featured: false,
+    newArrival: true,
     stock: 35,
     rating: 4.7,
     reviews: 62,
   },
+  {
+    id: 13,
+    name: "Designer Denim Jacket",
+    description: "A stylish denim jacket with modern detailing. Perfect for layering in any season with durable construction and timeless appeal.",
+    price: 119.99,
+    originalPrice: 149.99,
+    images: [
+      "https://images.unsplash.com/photo-1611312449408-fcece27cdbb7?q=80&w=1738&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1582418702059-97ebafb35d09?q=80&w=1915&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1542272604-787c3835535d?q=80&w=1926&auto=format&fit=crop",
+    ],
+    category: "men",
+    tags: ["jacket", "denim", "casual", "sale"],
+    sizes: ["S", "M", "L", "XL"],
+    colors: [
+      { name: "Blue", value: "#1e3a8a" },
+      { name: "Light Wash", value: "#a8dadc" },
+      { name: "Black", value: "#000000" },
+    ],
+    stock: 28,
+    rating: 4.7,
+    reviews: 54,
+  },
+  {
+    id: 14,
+    name: "Boho Maxi Dress",
+    description: "A bohemian-inspired maxi dress with intricate patterns. Features flowing fabric and a flattering silhouette perfect for summer evenings.",
+    price: 99.99,
+    images: [
+      "https://images.unsplash.com/photo-1566491888763-e71518ded3dd?q=80&w=1887&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1618244972963-dbee1a7edc95?q=80&w=1887&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?q=80&w=1886&auto=format&fit=crop",
+    ],
+    category: "women",
+    tags: ["dress", "maxi", "boho", "new-arrival"],
+    sizes: ["XS", "S", "M", "L"],
+    colors: [
+      { name: "Multicolor", value: "#ff9e00" },
+      { name: "Earth Tones", value: "#cb997e" },
+    ],
+    newArrival: true,
+    stock: 22,
+    rating: 4.9,
+    reviews: 43,
+  },
+  {
+    id: 15,
+    name: "Vintage Cargo Pants",
+    description: "Stylish cargo pants with a vintage-inspired design. Features multiple pockets and durable fabric with a comfortable relaxed fit.",
+    price: 79.99,
+    originalPrice: 99.99,
+    images: [
+      "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?q=80&w=1887&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?q=80&w=1887&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1517445312882-bc9910d018b3?q=80&w=1906&auto=format&fit=crop",
+    ],
+    category: "men",
+    tags: ["pants", "cargo", "vintage", "sale"],
+    sizes: ["30", "32", "34", "36"],
+    colors: [
+      { name: "Olive", value: "#606c38" },
+      { name: "Khaki", value: "#c8b88a" },
+      { name: "Black", value: "#000000" },
+    ],
+    stock: 42,
+    rating: 4.6,
+    reviews: 67,
+  },
+  {
+    id: 16,
+    name: "Elegant Evening Gown",
+    description: "A stunning evening gown for special occasions. Features luxurious fabric with elegant detailing and a flattering silhouette.",
+    price: 299.99,
+    originalPrice: 349.99,
+    images: [
+      "https://images.unsplash.com/photo-1566700274088-6e819d15fa2b?q=80&w=1887&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1585944429478-96a8a013d258?q=80&w=1887&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1565462900119-a16283d8c30d?q=80&w=1887&auto=format&fit=crop",
+    ],
+    category: "women",
+    tags: ["dress", "formal", "evening", "sale"],
+    sizes: ["XS", "S", "M", "L"],
+    colors: [
+      { name: "Black", value: "#000000" },
+      { name: "Burgundy", value: "#800020" },
+      { name: "Navy", value: "#0d1b2a" },
+    ],
+    featured: true,
+    stock: 15,
+    rating: 4.9,
+    reviews: 38,
+  },
 ];
 
+// Utility functions for filtering and retrieving products
 export const getProductById = (id: number): Product | undefined => {
   return products.find((product) => product.id === id);
 };
@@ -291,11 +385,19 @@ export const getFeaturedProducts = (): Product[] => {
 };
 
 export const getNewArrivals = (): Product[] => {
-  return products.filter((product) => product.newArrival);
+  return products.filter((product) => product.newArrival || product.tags.includes("new-arrival"));
+};
+
+export const getSaleProducts = (): Product[] => {
+  return products.filter((product) => product.originalPrice || product.tags.includes("sale"));
 };
 
 export const getProductsByCategory = (category: string): Product[] => {
   return products.filter((product) => product.category === category);
+};
+
+export const getProductsByTag = (tag: string): Product[] => {
+  return products.filter((product) => product.tags.includes(tag));
 };
 
 export const getProductsBySearch = (query: string): Product[] => {

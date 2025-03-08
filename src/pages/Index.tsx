@@ -1,5 +1,4 @@
-
-import React, { useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { ArrowRight, TrendingUp, Tag, Clock } from "lucide-react";
 import MainLayout from "@/components/layout/MainLayout";
@@ -57,9 +56,9 @@ const categories = [
     size: "md" as const,
   },
   {
-    name: "Premium Selection",
+    name: "Sale Collection",
     image: "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?q=80&w=2074&auto=format&fit=crop",
-    link: "/premium",
+    link: "/sale",
     size: "lg" as const,
   },
 ];
@@ -140,10 +139,6 @@ const Index = () => {
             <h2 className="text-2xl md:text-3xl font-display font-semibold mb-2">Shop by Category</h2>
             <p className="text-muted-foreground">Explore our collections for every style and occasion</p>
           </div>
-          <Link to="/categories" className="group inline-flex items-center text-sm font-medium mt-4 md:mt-0">
-            View All Categories
-            <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
-          </Link>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
@@ -166,7 +161,7 @@ const Index = () => {
             <h2 className="text-2xl md:text-3xl font-display font-semibold mb-2">Featured Products</h2>
             <p className="text-muted-foreground">Handpicked selection of our best products</p>
           </div>
-          <Link to="/featured" className="group inline-flex items-center text-sm font-medium mt-4 md:mt-0">
+          <Link to="/sale" className="group inline-flex items-center text-sm font-medium mt-4 md:mt-0">
             View All Featured
             <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
           </Link>
